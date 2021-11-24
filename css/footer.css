@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* footer */
+#footer {
+
+  background-color: #0F1021;
+}
+.footer {
+  justify-content: space-between;
+  padding-top: 12px;
+  
+  /* height: 80vh; */
+}
+hr {
+  opacity: 0.2;
+  background-color: white;
+}
+
+.about {
+  text-align: justify;
+  
+}
+.footer h4 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.footer p,
+.footer li {
+  color: white;
+  /* color: black; */
+  font-size: 13px;
+  /* font-weight: 500px; */
+}
+.contact .fa {
+  margin-right: 10px;
+  color: white;
+}
+.copyright,
+.register {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.774);
+}
+a {
+  text-decoration: none;
+  /* color: mediumspringgreen; */
+  /* color: white; */
+  color: white;
+  /* color: #0a1d04; */
+  /* font-weight: bold; */
+}
+a:hover {
+  /* color: orange; */
+  color: #cee68c;
+}
+.social a {
+  color: white;
+}
+ul {
+  list-style: none;
+}
+
+.register {
+  font-size: 27px;
+  padding: -3px;
+  color: white;
+}
+
+.register a {
+  display: inline-block;
+  color: white;
+  padding: 3px 30px 3px 30px;
+  background-color: red;
+  margin-left: 10px;
+  border-radius: 20px;
+  font-size: 19px;
+  line-height: 2;
+  letter-spacing: 0.1em;
+}
+
+.register a:hover {
+  color: white;
+  background-color: orange;
+  text-decoration: none;
+}
+/* social */
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  line-height: 4;
+  color: white;
+}
+.social ul {
+  display: inline-block;
+  color: white;
+}
+.social ul li {
+  float: left;
+}
+.social ul li {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  /* background-color: #424242; */
+  background-color: black;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.social ul li i {
+  color: white;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.social ul li:nth-child(1):hover {
+  background-color: #3b5999;
+}
+.social ul li:nth-child(2):hover {
+  background-color: #55acee;
+}
+.social ul li:nth-child(3):hover {
+  background-color: #dd4b39;
+}
+.social ul li:nth-child(4):hover {
+  background-color: #0077b5;
+}
+.social ul li:nth-child(5):hover {
+  background-color: #ea4c89;
+}
+
+/*  */
+.copyright {
+  padding: 8px;
+  color: black;
+  text-align: center;
+  /* background-color: #D8E9A8; */
+  background-color: #FFE6E6;
+  /* background-color: #000; */
+  /* background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), rgba(17, 17, 17, 0.8); */
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
